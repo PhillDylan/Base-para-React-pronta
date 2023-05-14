@@ -9,9 +9,10 @@ export const Routes = () => {
         <BrowserRouter>
             <Switch>
 
-                <Route path="/" element={<Dashboard/> } />
-            
-                        
+                <Route path="/pagina-inicial" element={<Dashboard/> } />
+
+
+                <Route path="*" element={<Navigate to="/pagina-inicial" />} />        
 
             </Switch>
         </BrowserRouter>    
