@@ -9,7 +9,7 @@ export const Routes = () => {
         <BrowserRouter>
             <Switch>
 
-                <Route path="/" element={<Dashboard/> }
+                <Route path="/" element={<Dashboard/> } />
             
                         
 
